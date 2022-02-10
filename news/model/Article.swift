@@ -8,7 +8,7 @@
 import Foundation
 
 struct Article: Codable {
-    let author: String
+    var author: String?
     let title: String
     let url: String
 }
